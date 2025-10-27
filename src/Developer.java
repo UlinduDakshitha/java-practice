@@ -1,2 +1,2 @@
-public class Developer {
+public class Developer extends Manager{
 }

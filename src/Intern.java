@@ -1,2 +1,2 @@
-public class Intern {
+public class Intern extends Developer{
 }
