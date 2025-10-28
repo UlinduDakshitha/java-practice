@@ -26,8 +26,9 @@ private double baseSalary;
     public void setBaseSalary(double baseSalary) {
         this.baseSalary = baseSalary;
     }
-    
+
     public void calculate(){
+        System.out.println("");
 
     }
 }
