@@ -9,5 +9,10 @@ private int teamSize;
     public void setTeamSize(int teamSize) {
         this.teamSize = teamSize;
     }
+
+    @Override
+    public void calculate() {
+
+    }
 }
 
