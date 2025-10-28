@@ -1,11 +1,12 @@
 public class Manager extends CompanyEmployee {
-private String language;
+private int teamSize;
 
-    public String getLanguage() {
-        return language;
+
+    public int getTeamSize() {
+        return teamSize;
     }
 
-    public void setLanguage(String language) {
-        this.language = language;
+    public void setTeamSize(int teamSize) {
+        this.teamSize = teamSize;
     }
 }
