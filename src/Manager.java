@@ -12,8 +12,7 @@ private int teamSize;
 
     @Override
     public void calculate() {
-
-
+        System.out.println(getBaseSalary()*0.3);
     }
 }
 

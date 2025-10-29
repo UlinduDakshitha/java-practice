@@ -8,4 +8,9 @@ private String language;
     public void setLanguage(String language) {
         this.language = language;
     }
+
+    @Override
+    public void calculate() {
+        System.out.println(getBaseSalary()*0.2);
+    }
 }

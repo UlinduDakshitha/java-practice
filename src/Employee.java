@@ -10,6 +10,9 @@ public class Employee {
             String name= sc.next();
 
 
+
+
+
         }
 
     }
