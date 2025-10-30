@@ -22,6 +22,11 @@ public class Employee {
 switch (type){
 
     case "Manager":
+    Manager manage=new Manager();
+    manage.getName();
+    manage.getId();
+    manage.getTeamSize();
+
 
         
 }
