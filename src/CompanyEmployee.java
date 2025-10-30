@@ -27,8 +27,8 @@ private double baseSalary;
         this.baseSalary = baseSalary;
     }
 
-    public void calculate(){
-        System.out.println("calculate bonus");
+    public double calculate(){
+        return 0;
 
     }
 }

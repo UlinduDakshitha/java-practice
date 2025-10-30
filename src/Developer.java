@@ -10,7 +10,7 @@ private String language;
     }
 
     @Override
-    public void calculate() {
-        System.out.println(getBaseSalary()*0.2);
+    public  double calculate() {
+         return getBaseSalary()*0.2;
     }
 }

@@ -10,7 +10,7 @@ public class Intern extends Developer{
     }
 
     @Override
-    public void calculate() {
-        System.out.println(getBaseSalary()*0.1);
+    public  double calculate() {
+        return getBaseSalary()*0.1;
     }
 }
