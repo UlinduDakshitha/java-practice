@@ -46,7 +46,7 @@ switch (type){
     intern.setUniversity("Jaffna");
     intern.setBaseSalary(salary);
     intern.calculate();
-
+    System.out.println("Total salary of intern"+salary+salary*0.1);
 
         
 }
