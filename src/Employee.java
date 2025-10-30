@@ -25,8 +25,8 @@ switch (type){
     Manager manage=new Manager();
     manage.getName();
     manage.getId();
-    manage.getTeamSize();
-
+    manage.setTeamSize();
+    manage.
 
         
 }
