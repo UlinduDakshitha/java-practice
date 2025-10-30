@@ -23,10 +23,13 @@ switch (type){
 
     case "Manager":
     Manager manage=new Manager();
-    manage.getName();
-    manage.getId();
-    manage.setTeamSize();
-    manage.
+     manage.setName(name);
+     manage.setId(id);
+     manage.setTeamSize(20);
+     manage.setBaseSalary(salary);
+     System.out.println("Total salary of manager"+salary+salary*0.3);
+
+
 
         
 }
