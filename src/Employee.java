@@ -27,6 +27,7 @@ switch (type){
      manage.setId(id);
      manage.setTeamSize(20);
      manage.setBaseSalary(salary);
+     manage.calculate();
      System.out.println("Total salary of manager"+salary+salary*0.3);
 
     case "Developer":
@@ -35,7 +36,16 @@ switch (type){
     developer.setId(id);
     developer.setLanguage("English");
     developer.setBaseSalary(salary);
+    developer.calculate();
     System.out.println("Total salary of developer"+salary+salary*0.2);
+
+    case "Intern":
+    Intern intern=new Intern();
+    intern.setName(name);
+    intern.setId(id);
+    intern.setUniversity("Jaffna");
+    intern.setBaseSalary(salary);
+    intern.calculate();
 
 
         
