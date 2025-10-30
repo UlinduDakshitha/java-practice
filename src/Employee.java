@@ -51,9 +51,12 @@ break;
     intern.setBaseSalary(salary);
     intern.calculate();
     employees[i]=intern;
-    System.out.println("Total salary of intern"+salary+salary*0.1);
+        System.out.println("Total salary of intern: " + (salary + intern. calculate()));
+break;
 
-        
+    default:
+        System.out.println("Invalid job type!");
+        break;
 }
 
 
