@@ -29,6 +29,13 @@ switch (type){
      manage.setBaseSalary(salary);
      System.out.println("Total salary of manager"+salary+salary*0.3);
 
+    case "Developer":
+    Developer developer=new Developer();
+    developer.setName(name);
+    developer.setId(id);
+    developer.setLanguage("English");
+    developer.setBaseSalary(salary);
+    System.out.println("Total salary of developer"+salary+salary*0.2);
 
 
         
