@@ -30,6 +30,8 @@ switch (type){
      manage.calculate();
      employees[i]=manage;
      System.out.println("Total salary of Manager: " + (salary + manage. calculate()));
+     break;
+
     case "Developer":
     Developer developer=new Developer();
     developer.setName(name);
@@ -38,8 +40,8 @@ switch (type){
     developer.setBaseSalary(salary);
     developer.calculate();
     employees[i]=developer;
-    System.out.println("Total salary of developer"+salary+salary*0.2);
-
+    System.out.println("Total salary of Developer: " + (salary + developer. calculate()));
+break;
 
     case "Intern":
     Intern intern=new Intern();
