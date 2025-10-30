@@ -29,8 +29,7 @@ switch (type){
      manage.setBaseSalary(salary);
      manage.calculate();
      employees[i]=manage;
-     System.out.println("Total salary of manager"+salary+salary*0.3);
-
+     System.out.println("Total salary of Manager: " + (salary + manage. calculate()));
     case "Developer":
     Developer developer=new Developer();
     developer.setName(name);
