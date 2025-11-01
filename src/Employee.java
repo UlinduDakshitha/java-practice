@@ -17,7 +17,8 @@ public class Employee {
             System.out.print("enter the job type:");
             String type= sc.next();
 
-switch (type){
+switch (type)
+{
 
     case "Manager":
     Manager manage=new Manager();
