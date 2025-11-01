@@ -11,7 +11,7 @@ public class Employee {
             System.out.print("Enter your Id:");
             int id= sc.nextInt();
 
-            System.out.print("Enter our basesalary:");
+            System.out.print("Enter our salary:");
             double salary=sc.nextDouble();
 
             System.out.print("enter the job type:");
