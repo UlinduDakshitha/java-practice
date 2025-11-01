@@ -49,7 +49,7 @@ break;
     intern.setBaseSalary(salary);
     intern.calculate();
     employees[i]=intern;
-        System.out.println("Total salary of intern: " + (salary + intern. calculate()));
+    System.out.println("Total salary of intern: " + (salary + intern. calculate()));
 break;
 
     default:
