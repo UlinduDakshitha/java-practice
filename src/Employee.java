@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class Employee {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        CompanyEmployee[] employees=new CompanyEmployee[10];
+        CompanyEmployee[] companyEmployees=new CompanyEmployee[10];
 
         for(int i=0;i<10;i++){
             System.out.print("Enter your name:");
@@ -26,7 +26,7 @@ switch (type){
      manage.setTeamSize(20);
      manage.setBaseSalary(salary);
      manage.calculate();
-     employees[i]=manage;
+     companyEmployees[i]=manage;
      System.out.println("Total salary of Manager: " + (salary + manage. calculate()));
      break;
 
@@ -37,7 +37,7 @@ switch (type){
     developer.setLanguage("English");
     developer.setBaseSalary(salary);
     developer.calculate();
-    employees[i]=developer;
+    companyEmployees[i]=developer;
     System.out.println("Total salary of Developer: " + (salary + developer. calculate()));
 break;
 
@@ -48,7 +48,7 @@ break;
     intern.setUniversity("Jaffna");
     intern.setBaseSalary(salary);
     intern.calculate();
-    employees[i]=intern;
+    companyEmployees[i]=intern;
     System.out.println("Total salary of intern: " + (salary + intern. calculate()));
 break;
 
